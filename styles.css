@@ -95,3 +95,25 @@ body {
 .container__description {
     padding: 2em;
 }
+
+.devices {
+    text-align: center;
+}
+
+.devices__title {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--main-white);
+}
+
+.devices__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.list__item {
+    font-size: 32px;
+    color: var(--main-white);
+}
