@@ -3,6 +3,7 @@
     --second-grey: #C0C0C0;
     --blue-button: #167BF7;
     --background-color: #00030C;
+    --blue-button-hover: #3C92FA;
     --main-font: 'Inter', sans-serif;
 }
 
@@ -55,6 +56,11 @@ body {
     display: block;
     text-decoration: none;
     margin-bottom: 1em;
+}
+
+.container__button:hover {
+    background-color: var(--blue-button-hover);
+    color: var(--background-color);
 }
 
 .secondary_button {
@@ -116,4 +122,37 @@ body {
 .list__item {
     font-size: 32px;
     color: var(--main-white);
+}
+
+.footer {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.list__link a {
+    text-decoration: none;
+    color: var(--main-white);
+    margin-left: 1em;
+    font-weight: 700;
+}
+
+.list__link a:hover {
+    color: var(--blue-button);
+}
+
+.list__link a:active {
+    color: purple;
+}
+
+.footer__text {
+    margin: 1em 0;
+    color: var(--main-white);
+    font-size: 14px;
 }
